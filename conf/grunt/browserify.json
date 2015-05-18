@@ -1,0 +1,6 @@
+{
+    "compile": {
+        "src": [ "build/js/pm-es5.js" ],
+        "dest": "build/js/app.js"
+    }
+}

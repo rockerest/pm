@@ -1,0 +1,7 @@
+{
+    "build": {
+        "files": {
+            "build/js/pm-es5.js": "src/js/bootstrap.js"
+        }
+    }
+}

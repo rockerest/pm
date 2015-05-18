@@ -1,0 +1,14 @@
+{
+    "compile": {
+        "options": {
+            "title": "Build Succeeded",
+            "message": "The application has finished compiling"
+        }
+    },
+    "sass": {
+        "options": {
+            "title": "SASS Compile Succeeded",
+            "message": "The stylesheets have been compiled successfully"
+        }
+    }
+}

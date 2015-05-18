@@ -1,0 +1,33 @@
+body > header{
+    @extend .clear;
+
+    font-size: 2.5em;
+
+    padding: 0.25em;
+
+    img{
+        width: 1em;
+        height: 1em;
+
+        float: left;
+    }
+
+    span{
+        float: left;
+
+        line-height: 1em;
+    }
+}
+
+section{
+    @for $i from 1 through 6 {
+        > h#{$i} {
+            @extend .tl;
+            
+            margin-bottom: 1em;
+            padding: 0.5em;
+            
+            border-bottom: $standard-border solid $color-struts;
+        }
+    }
+}

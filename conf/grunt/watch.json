@@ -1,0 +1,18 @@
+{
+    "js": {
+        "files": ["src/js/**/*.json", "src/js/**/*.js", "src/content/**/*.html", "Gruntfile.js", "config.json"],
+        "tasks": ["code", "uglify"]
+    },
+    "sass": {
+        "files": ["src/scss/**/*.scss"],
+        "tasks": ["style"]
+    },
+    "i18n": {
+        "files": ["src/js/nls/**/*.js", "src/content/translations/**/*.json"],
+        "tasks": ["code", "copy:i18n"]
+    },
+    "images": {
+        "files": ["src/img/**/*"],
+        "tasks": ["copy:images"]
+    }
+}
